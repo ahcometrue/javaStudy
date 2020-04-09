@@ -1,0 +1,11 @@
+apply plugin: 'java'
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    compile 'org.slf4j:slf4j-api:2.0.0-alpha1'
+    testCompile 'junit:junit:4.12'
+}
+
+

@@ -19,6 +19,8 @@ public class App {
         System.out.println("Hello World!");
         Class cls = String.class;
         System.out.println(cls);
+        long val = User.fact(1);
+        System.out.println(val);
 
     }
 }
